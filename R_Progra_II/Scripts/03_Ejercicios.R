@@ -25,3 +25,4 @@ pobreza02[pobreza02$DISTRITO == "Los Olivos", ]
 apply(pobreza02, 2, max, na.rm = T)
 
 cbind(pobreza02, Nivel_pobreza)
+class(pobreza02)
